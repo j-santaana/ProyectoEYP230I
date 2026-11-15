@@ -20,7 +20,4 @@ Para obtener la base de datos limpia
 
 - Cambiamos la columna "date" de su formato "object" a "DateTime"
 - Eliminamos las columnas solicitadas rv1 y rv2
-- Solo eliminamos valores anomalos correspondientes a valores negativos dentro del consumo o la humedad, ya que estos se deben a errores de mediciones, picos de consumo y momentos sin consumo electro son parte del dataset y del fenomeno a estudiar. Mientras que en los features, valores negativos o 0 en temperatura son posibles y esperables dependiendo del lugar donde se tomen las mediciones.
-
-
-
+- Solo eliminamos valores anomalos correspondientes a valores negativos dentro del consumo o la humedad, ya que estos se deben a errores de mediciones. Picos de consumo y momentos sin consumo electrico son parte del dataset y del fenomeno a estudiar. Mientras que en los features, valores negativos o 0 en temperatura son posibles y esperables dependiendo del lugar donde se tomen las mediciones.
